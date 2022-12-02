@@ -10,7 +10,7 @@ from .models import Products
 
 
 # Create your views here.
-@api_view(['GET', 'POST', 'DELETE'])
+@api_view(['GET', 'POST'])
 def products(request):
     if request.method == 'GET':
         products = Products.objects.all()
