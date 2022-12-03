@@ -1,1 +1,1 @@
-# django_project
+# Django Project with React Interface
