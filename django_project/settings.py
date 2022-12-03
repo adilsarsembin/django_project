@@ -59,6 +59,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_project.urls'
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-35f4.up.railway.app/'
+]   
 
 TEMPLATES = [
     {
